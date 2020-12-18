@@ -1,5 +1,6 @@
 def recursiveBinarySearch(array, lowerIndex, higherIndex, key):
     if higherIndex >= lowerIndex:
+        # check the below link
         # https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html
         mid = lowerIndex + (higherIndex - lowerIndex) // 2
         if array[mid] == key:
